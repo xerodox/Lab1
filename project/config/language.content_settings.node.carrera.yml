@@ -1,0 +1,11 @@
+uuid: fedded49-4a37-4b97-b66e-1f748092496e
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.carrera
+id: node.carrera
+target_entity_type_id: node
+target_bundle: carrera
+default_langcode: site_default
+language_alterable: false

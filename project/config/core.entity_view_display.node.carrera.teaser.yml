@@ -1,0 +1,35 @@
+uuid: 9c016b59-60bf-48ff-b124-822c3dea3fea
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.carrera.body
+    - field.field.node.carrera.field_campus_en_que_se_imparte
+    - field.field.node.carrera.field_ficha_profesional
+    - node.type.carrera
+  module:
+    - text
+    - user
+id: node.carrera.teaser
+targetEntityType: node
+bundle: carrera
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_campus_en_que_se_imparte: true
+  field_ficha_profesional: true
+  langcode: true

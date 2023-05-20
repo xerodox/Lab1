@@ -1,0 +1,8 @@
+uuid: a69e419c-7efe-42f4-915d-d25ed9c6d829
+langcode: es
+status: true
+dependencies: {  }
+name: Campus
+vid: campus
+description: ''
+weight: 0
