@@ -1,0 +1,19 @@
+uuid: 7f65e37c-2d65-4167-8d6b-b4d34236b542
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_relacioncursocarrera
+field_name: field_relacioncursocarrera
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

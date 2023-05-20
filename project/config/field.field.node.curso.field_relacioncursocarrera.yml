@@ -1,0 +1,29 @@
+uuid: b1804630-29d0-45d0-8661-01758f1e4c14
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_relacioncursocarrera
+    - node.type.carrera
+    - node.type.curso
+id: node.curso.field_relacioncursocarrera
+field_name: field_relacioncursocarrera
+entity_type: node
+bundle: curso
+label: RelacionCursoCarrera
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      carrera: carrera
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

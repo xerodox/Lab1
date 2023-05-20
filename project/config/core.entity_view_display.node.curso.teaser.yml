@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.curso.body
     - field.field.node.curso.field_codigo_del_curso
     - field.field.node.curso.field_programa_del_curso
+    - field.field.node.curso.field_relacioncursocarrera
     - node.type.curso
   module:
     - text
@@ -32,4 +33,5 @@ content:
 hidden:
   field_codigo_del_curso: true
   field_programa_del_curso: true
+  field_relacioncursocarrera: true
   langcode: true
